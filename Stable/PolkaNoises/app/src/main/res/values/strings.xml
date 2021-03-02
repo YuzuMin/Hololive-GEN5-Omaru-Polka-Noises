@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Polka Noises</string>
+    <string name="app_version">2.2.0</string>
+    <string name="press_vtuber">Press Polka!</string>
+
+
+    <string name="noise1_text">Yo Dayo</string>
+    <string name="noise2_text">Banana</string>
+    <string name="noise3_text">*Ojou Giggles*</string>
+    <string name="noise4_text">最近、寒くなってきたな!</string>
+    <string name="noise5_text">Docchi Docchi</string>
+    <string name="noise6_text">Daijoubu Desu ka</string>
+    <string name="noise7_text">*Ojou laughter*</string>
+    <string name="noise8_text">Ja iranai</string>
+    <string name="noise9_text">*Wife Noises*</string>
+    <string name="noise10_text">*1st voice tweet*</string>
+    <string name="noise11_text">Oyasumi</string>
+    <string name="noise12_text">Arimasu</string>
+    <string name="noise13_text">1,2,3,4,5 x3</string>
+    <string name="noise14_text">Kore wa</string>
+    <string name="noise15_text">*Ojou kicks you*</string>
+    <string name="noise16_text">Baka!!</string>
+    <string name="noise17_text">Hentai</string>
+    <string name="noise18_text">Urusai</string>
+    <string name="noise19_text">Mou shiranai</string>
+    <string name="noise20_text">Konnakiri</string>
+    <string name="noise21_text">Hai</string>
+    <string name="noise22_text">Suki</string>
+    <string name="noise23_text">Na</string>
+    <string name="noise24_text">何故え!?</string>
+    <string name="noise25_text">天然ものだぞ</string>
+    <string name="noise26_text">う〜ん、仕方ない</string>
+    <string name="noise27_text">*Tongue Twister*</string>
+    <string name="noise28_text">Arigato</string>
+    <string name="noise29_text">Ano Ne</string>
+    <string name="noise30_text">*Ojou Blessing*</string>
+    <string name="noise31_text">みんなチョコもらた?</string>
+    <string name="noise32_text">*Ojou Cries*</string>
+    <string name="noise33_text">*Onee san voice*</string>
+    <string name="noise34_text">Un!!!</string>
+    <string name="noise35_text">Yeeeei!!!</string>
+    <string name="noise36_text">Won\'t forgive you</string>
+    <string name="noise37_text">Pikan!</string>
+    <string name="noise38_text">FU! x3</string>
+    <string name="noise39_text">Eh?!</string>
+    <string name="noise40_text">もういい</string>
+    <string name="noise41_text">*Oni Noises*</string>
+    <string name="noise42_text">*Angry cat noises*</string>
+    <string name="noise43_text">*Oni Giggles*</string>
+    <string name="noise44_text">早く起きる</string>
+    <string name="noise45_text">困っちゃうよね</string>
+</resources>
