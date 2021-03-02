@@ -35,8 +35,8 @@ public class Splash extends AppCompatActivity {
             public void onCompletion(MediaPlayer mp) {
                 if(!isLaunched){
                     isLaunched=true;
-                    finish();
                     startActivity(new Intent(Splash.this, MainActivity.class));
+                    finish();
                 }
             }
         });
@@ -46,8 +46,8 @@ public class Splash extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 if(!isLaunched){
                     isLaunched=true;
-                    finish();
                     startActivity(new Intent(Splash.this, MainActivity.class));
+                    finish();
                 }
                 return false;
             }

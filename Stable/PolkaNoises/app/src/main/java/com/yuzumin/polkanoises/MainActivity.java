@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
 
     SharedPreferences SavedSettings;
 
+    boolean Autoclicking=false;
+    boolean Autoclick =true;
+    boolean isPlaying;
+
     boolean switch0; //IMPORTANT : For Bottom Bar
     boolean switch1; //IMPORTANT : TO DISABLE TOAST POPUP
     boolean switch2; //TO DISABLE CLICKER
@@ -139,6 +143,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         listener = new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
+                isPlaying=false;
                 cleanupMediaPlayer();
             }
         };
