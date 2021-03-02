@@ -18,21 +18,21 @@ height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.polkanoi
 # License
 GNU General Public License V3
 
-# List of Noises
-* polkanoise0
-* polkanoise1
-* polkanoise2
-* polkanoise3
-* polkanoise4
-* polkanoise5
-* polkanoise6
-* polkanoise7
-* polkanoise8
-* polkanoise9
-* polkanoise10
-* polkanoise11
-* polkanoise12
-* polkanoise13
+# List of Noises 
+* polkanoise0 Shishiro Botan
+* polkanoise1 Hyah!
+* polkanoise2 Don't touch me there!
+* polkanoise3 Aha!
+* polkanoise4 Polka Oruka?
+* polkanoise5 Polka Oruyo!
+* polkanoise6 Wakata?
+* polkanoise7 Pol!
+* polkanoise8 Po Pi Po
+* polkanoise9 Padoru
+* polkanoise10 Selamat Pagi
+* polkanoise11 Mmmm,Pa!
+* polkanoise12 *Unidentified sound*
+* polkanoise13 
 * polkanoise14
 * polkanoise15
 * polkanoise16
