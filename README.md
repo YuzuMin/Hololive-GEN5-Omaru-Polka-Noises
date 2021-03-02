@@ -32,10 +32,10 @@ GNU General Public License V3
 * polkanoise10 Selamat Pagi
 * polkanoise11 Mmmm,Pa!
 * polkanoise12 *Unidentified sound*
-* polkanoise13 
-* polkanoise14
-* polkanoise15
-* polkanoise16
+* polkanoise13 I'll be bacc
+* polkanoise14 Hey guys
+* polkanoise15 *Fennec fox laugh*
+* polkanoise16 
 * polkanoise17
 * polkanoise18
 * polkanoise19
