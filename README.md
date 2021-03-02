@@ -35,9 +35,9 @@ GNU General Public License V3
 * polkanoise13 I'll be bacc
 * polkanoise14 Hey guys
 * polkanoise15 *Fennec fox laugh*
-* polkanoise16 
-* polkanoise17
-* polkanoise18
+* polkanoise16 Ano ne
+* polkanoise17 *Heavy breathing*
+* polkanoise18 Thank you
 * polkanoise19
 * polkanoise20
 * polkanoise21
