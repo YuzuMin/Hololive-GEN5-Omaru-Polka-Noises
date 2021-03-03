@@ -34,17 +34,17 @@ GNU General Public License V3
 * polkanoise12 *Unidentified sound*
 * polkanoise13 I'll be bacc
 * polkanoise14 Hey guys
-* polkanoise15 *Fennec fox laugh*
+* polkanoise15 *Fennec laugh*
 * polkanoise16 Ano ne
 * polkanoise17 *Heavy breathing*
 * polkanoise18 Thank you
 * polkanoise19 Kusooo
 * polkanoise20 Hamburger Pc
 * polkanoise21 No No No
-* polkanoise22
-* polkanoise23
-* polkanoise24
-* polkanoise25
+* polkanoise22 Beef Pc
+* polkanoise23 Go Go Go
+* polkanoise24 *Angry Fennec Noise*
+* polkanoise25 Poltato PC Arrrgh
 * polkanoise26
 * polkanoise27
 * polkanoise28
