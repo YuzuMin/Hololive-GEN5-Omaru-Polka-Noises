@@ -45,7 +45,7 @@ GNU General Public License V3
 * polkanoise23 Go Go Go
 * polkanoise24 *Angry Fennec Noise*
 * polkanoise25 Poltato PC Arrrgh
-* polkanoise26
+* polkanoise26 Yes Yes Yes Yes
 * polkanoise27
 * polkanoise28
 * polkanoise29
