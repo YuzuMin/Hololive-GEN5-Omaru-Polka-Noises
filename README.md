@@ -38,9 +38,9 @@ GNU General Public License V3
 * polkanoise16 Ano ne
 * polkanoise17 *Heavy breathing*
 * polkanoise18 Thank you
-* polkanoise19
-* polkanoise20
-* polkanoise21
+* polkanoise19 Kusooo
+* polkanoise20 Hamburger Pc
+* polkanoise21 No No No
 * polkanoise22
 * polkanoise23
 * polkanoise24
