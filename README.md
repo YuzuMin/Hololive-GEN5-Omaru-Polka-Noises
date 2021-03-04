@@ -31,7 +31,7 @@ GNU General Public License V3
 * polkanoise9 Padoru
 * polkanoise10 Selamat Pagi
 * polkanoise11 Mmmm,Pa!
-* polkanoise12 *Unidentified sound*
+* polkanoise12 Terima kasih banyak
 * polkanoise13 I'll be bacc
 * polkanoise14 Hey guys
 * polkanoise15 *Fennec laugh*
