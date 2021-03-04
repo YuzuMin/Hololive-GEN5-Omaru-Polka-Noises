@@ -52,7 +52,7 @@ GNU General Public License V3
 * polkanoise30 違う
 * polkanoise31 Where
 * polkanoise32 カフェテリアですけど
-* polkanoise33
+* polkanoise33 I'm 300k subs vtuber
 * polkanoise34
 * polkanoise35
 * polkanoise36
