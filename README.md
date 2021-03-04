@@ -48,10 +48,10 @@ GNU General Public License V3
 * polkanoise26 Yes Yes Yes Yes
 * polkanoise27 早くハンバーガーになりたい。
 * polkanoise28 5 million gram beef pc
-* polkanoise29
-* polkanoise30
-* polkanoise31
-* polkanoise32
+* polkanoise29 なんで
+* polkanoise30 違う
+* polkanoise31 Where
+* polkanoise32 カフェテリアですけど
 * polkanoise33
 * polkanoise34
 * polkanoise35
