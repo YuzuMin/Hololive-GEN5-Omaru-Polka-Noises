@@ -46,8 +46,8 @@ GNU General Public License V3
 * polkanoise24 *Angry Fennec Noise*
 * polkanoise25 Poltato PC Arrrgh
 * polkanoise26 Yes Yes Yes Yes
-* polkanoise27
-* polkanoise28
+* polkanoise27 早くハンバーガーになりたい。
+* polkanoise28 5 million gram beef pc
 * polkanoise29
 * polkanoise30
 * polkanoise31
