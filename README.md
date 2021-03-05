@@ -63,8 +63,8 @@ GNU General Public License V3
 * polkanoise41 Rio dio
 * polkanoise42 I'm Kiara
 * polkanoise43 Kikkeriki 
-* polkanoise44
-* polkanoise45
+* polkanoise44 Fucking my life
+* polkanoise45 Kusotori
 * polkanoise46
 * polkanoise47
 * polkanoise48
