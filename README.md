@@ -19,20 +19,19 @@ height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.polkanoi
 GNU General Public License V3
 
 # List of Noises 
-* polkanoise0 Shishiro Botan
-* polkanoise1 Hyah!
-* polkanoise2 Don't touch me there!
-* polkanoise3 Aha!
-* polkanoise4 Polka Oruka?
-* polkanoise5 Polka Oruyo!
-* polkanoise6 Wakata?
-* polkanoise7 Pol!
-* polkanoise8 Po Pi Po
-* polkanoise9 Padoru
-* polkanoise10 Selamat Pagi
-* polkanoise11 Mmmm,Pa!
-* polkanoise12 Terima kasih banyak
-* polkanoise13 I'll be bacc
+* polkanoise1 Shishiro Botan
+* polkanoise2 Hyah!
+* polkanoise3 Don't touch me there!
+* polkanoise4 Aha!
+* polkanoise5 Polka Oruka?
+* polkanoise6 Polka Oruyo!
+* polkanoise7 Wakata?
+* polkanoise8 Pol!
+* polkanoise9 Po Pi Po
+* polkanoise10 Padoru
+* polkanoise11 Selamat Pagi
+* polkanoise12 Mmmm,Pa!
+* polkanoise13 Terima kasih banyak
 * polkanoise14 Hey guys
 * polkanoise15 *Fennec laugh*
 * polkanoise16 Ano ne
@@ -56,15 +55,16 @@ GNU General Public License V3
 * polkanoise34 Polka betrays Nene
 * polkanoise35 Bye bye
 * polkanoise36 Mata Nene
-* polkanoise37 Pol Pol Pol Pol A
-* polkanoise38 Phoenix is me
-* polkanoise39 Teacher time
-* polkanoise40 Tu dio dio
-* polkanoise41 Rio dio
-* polkanoise42 I'm Kiara
-* polkanoise43 Kikkeriki 
-* polkanoise44 Fucking my life
-* polkanoise45 Kusotori
-* polkanoise46 Gomen Nene
-* polkanoise47 It's ok
-* polkanoise48 えんやで。
+* polkanoise37 I'll be bacc
+* polkanoise38 Pol Pol Pol Pol A
+* polkanoise39 Phoenix is me
+* polkanoise40 Teacher time
+* polkanoise41 Tu dio dio
+* polkanoise42 Rio dio
+* polkanoise43 I'm Kiara
+* polkanoise44 Kikkeriki 
+* polkanoise45 Fucking my life
+* polkanoise46 Kusotori
+* polkanoise47 Gomen Nene
+* polkanoise48 It's ok
+* polkanoise49 えんやで。
