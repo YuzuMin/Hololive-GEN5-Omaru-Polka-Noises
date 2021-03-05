@@ -57,8 +57,8 @@ GNU General Public License V3
 * polkanoise35 Bye bye
 * polkanoise36 Mata Nene
 * polkanoise37 Pol Pol Pol Pol A
-* polkanoise38
-* polkanoise39
+* polkanoise38 Phoenix is me
+* polkanoise39 
 * polkanoise40
 * polkanoise41
 * polkanoise42
