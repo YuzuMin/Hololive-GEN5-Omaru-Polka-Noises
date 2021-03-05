@@ -11,7 +11,7 @@ alt="Get it on Google Play"
 height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.polkanoises)
 
 # Features
-* 48 Noises
+* 49 Noises
 * Alarm Clock
 * Google Drive Download
 
