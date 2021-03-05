@@ -58,10 +58,10 @@ GNU General Public License V3
 * polkanoise36 Mata Nene
 * polkanoise37 Pol Pol Pol Pol A
 * polkanoise38 Phoenix is me
-* polkanoise39 
-* polkanoise40
-* polkanoise41
-* polkanoise42
+* polkanoise39 Teacher time
+* polkanoise40 Tu dio dio
+* polkanoise41 Rio dio
+* polkanoise42 I'm Kiara
 * polkanoise43
 * polkanoise44
 * polkanoise45
