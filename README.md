@@ -53,10 +53,10 @@ GNU General Public License V3
 * polkanoise31 Where
 * polkanoise32 カフェテリアですけど
 * polkanoise33 I'm 300k subs vtuber
-* polkanoise34
-* polkanoise35
-* polkanoise36
-* polkanoise37
+* polkanoise34 Polka betrays Nene
+* polkanoise35 Bye bye
+* polkanoise36 Mata Nene
+* polkanoise37 Pol Pol Pol Pol A
 * polkanoise38
 * polkanoise39
 * polkanoise40
