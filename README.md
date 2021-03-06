@@ -11,7 +11,7 @@ alt="Get it on Google Play"
 height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.polkanoises)
 
 # Features
-* 49 Noises
+* 48 Noises
 * Alarm Clock
 * Google Drive Download
 
@@ -66,5 +66,4 @@ GNU General Public License V3
 * polkanoise45 Fucking my life
 * polkanoise46 Kusotori
 * polkanoise47 Gomen Nene
-* polkanoise48 It's ok
-* polkanoise49 えんやで。
+* polkanoise48 えんやで。
