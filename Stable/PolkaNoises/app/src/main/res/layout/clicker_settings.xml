@@ -149,6 +149,8 @@
                                             android:layout_height="wrap_content" />
 
                                     </TableRow>
+
+
                                 </TableLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -172,108 +174,108 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content">
                                     <TableRow
-                                        android:id="@+id/ayame0_img_row">
+                                        android:id="@+id/polka0_img_row">
                                         <ImageView
                                             android:padding="10dp"
-                                            android:src="@drawable/ayame0"
+                                            android:src="@drawable/polka0"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/ayame0_img"
+                                            android:id="@+id/polka0_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Ayame 0"
+                                            android:text="Polka 0"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
 
                                     <TableRow
-                                        android:id="@+id/ayame1_img_row">
+                                        android:id="@+id/polka1_img_row">
                                         <ImageView
                                             android:padding="10dp"
-                                            android:src="@drawable/ayame1"
+                                            android:src="@drawable/polka1"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/ayame1_img"
+                                            android:id="@+id/polka1_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Ayame 1"
+                                            android:text="Polka 1"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
 
                                     <TableRow
-                                        android:id="@+id/ayame2_img_row">
+                                        android:id="@+id/polka2_img_row">
                                         <ImageView
                                             android:padding="10dp"
-                                            android:src="@drawable/ayame2"
+                                            android:src="@drawable/polka2"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/ayame2_img"
+                                            android:id="@+id/polka2_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Ayame 2"
+                                            android:text="Polka 2"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
 
                                     <TableRow
-                                        android:id="@+id/ayame3_img_row">
+                                        android:id="@+id/polka3_img_row">
                                         <ImageView
                                             android:padding="10dp"
-                                            android:src="@drawable/ayame3"
+                                            android:src="@drawable/polka3"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/ayame3_img"
+                                            android:id="@+id/polka3_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Ayame 3"
+                                            android:text="Polka 3"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
 
                                     <TableRow
-                                        android:id="@+id/ayame4_img_row">
+                                        android:id="@+id/polka4_img_row">
                                         <ImageView
                                             android:padding="10dp"
-                                            android:src="@drawable/ayame4"
+                                            android:src="@drawable/polka4"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/ayame4_img"
+                                            android:id="@+id/polka4_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Ayame 4"
+                                            android:text="Polka 4"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
                                     </TableRow>
 
                                     <TableRow
-                                        android:id="@+id/ayame5_img_row">
+                                        android:id="@+id/polka5_img_row">
                                         <ImageView
                                             android:padding="10dp"
-                                            android:src="@drawable/ayame5"
+                                            android:src="@drawable/polka5"
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"/>
                                         <RadioButton
-                                            android:id="@+id/ayame5_img"
+                                            android:id="@+id/polka5_img"
                                             android:layout_gravity="center_vertical"
                                             android:textSize="17dp"
                                             android:buttonTint="@color/colorAccent"
-                                            android:text="Ayame 5"
+                                            android:text="Polka 5"
                                             android:textColor="@color/colorAccent"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"/>
@@ -1277,7 +1279,68 @@
 
                                     </TableRow>
 
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
 
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/noise46_text"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch48"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/noise47_text"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch49"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content" />
+
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_marginBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_weight="1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/noise48_text"
+                                            android:textColor="#f1f1f1"
+                                            android:textSize="17sp" />
+
+                                        <Switch
+                                            android:id="@+id/switch50"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content" />
+
+                                    </TableRow>
 
                                 </TableLayout>
 

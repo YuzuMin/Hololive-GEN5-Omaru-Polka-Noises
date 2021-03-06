@@ -26,11 +26,10 @@ public class AlarmService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.ayamenoise1);
+        mediaPlayer = MediaPlayer.create(this, R.raw.polkanoise9);
         mediaPlayer.setLooping(true);
 
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-
     }
 
     @Override

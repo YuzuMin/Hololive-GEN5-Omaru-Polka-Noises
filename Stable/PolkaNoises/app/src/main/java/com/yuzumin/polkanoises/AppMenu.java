@@ -54,7 +54,7 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(android.content.Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg"));
+                i.setData(Uri.parse("https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA"));
                 startActivity(i);
             }
         });
@@ -155,7 +155,7 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(android.content.Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://drive.google.com/drive/folders/1IwsOiGYdRX_IGkML0ofEhPYMZ3nEEjtf?usp=sharing"));
+                i.setData(Uri.parse("https://drive.google.com/drive/folders/1kWuEaf2p0pF4neNYH3dJd7cNdDHdXTOx?usp=sharing"));
                 startActivity(i);
             }
         });

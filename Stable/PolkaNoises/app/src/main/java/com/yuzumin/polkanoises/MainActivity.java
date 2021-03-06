@@ -39,9 +39,6 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
 
     SharedPreferences SavedSettings;
 
-    boolean Autoclicking=false;
-    boolean Autoclick =true;
-    boolean isPlaying;
 
     boolean switch0; //IMPORTANT : For Bottom Bar
     boolean switch1; //IMPORTANT : TO DISABLE TOAST POPUP
@@ -94,9 +91,14 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
     CardView SoundBTN43;
     CardView SoundBTN44;
     CardView SoundBTN45;
+    CardView SoundBTN46;
+    CardView SoundBTN47;
+    CardView SoundBTN48;
+    CardView SoundBTN49;
 
     List<Integer> listofsounds;
     int charavalue;
+
 
     Integer DevCount=1;
 
@@ -139,11 +141,9 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             }
         });
 
-
         listener = new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                isPlaying=false;
                 cleanupMediaPlayer();
             }
         };
@@ -151,11 +151,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(switch2){
-                    startRandomSound();
-                }else{
-                    Toast.makeText(v.getContext(), "NOT ACTIVE", Toast.LENGTH_SHORT).show();
-                }
+                startRandomSound();
             }
         });
 
@@ -567,6 +563,32 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             }
         });
 
+        SoundBTN46=findViewById(R.id.sound46);
+        SoundBTN46.setVisibility(View.GONE);
+        SoundBTN46.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(48);
+            }
+        });
+
+        SoundBTN47=findViewById(R.id.sound47);
+        SoundBTN47.setVisibility(View.GONE);
+        SoundBTN47.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(49);
+            }
+        });
+
+        SoundBTN48=findViewById(R.id.sound48);
+        SoundBTN48.setVisibility(View.GONE);
+        SoundBTN48.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSound(50);
+            }
+        });
 
 
 
@@ -673,16 +695,16 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             count.increment();
             switch (num) {
                 case 3:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise1);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise1);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise1_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 4:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise2);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise2);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -691,16 +713,16 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     anim1.start();
                     break;
                 case 5:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise3);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise3);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise3_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 6:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise4);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise4);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -709,16 +731,16 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 7:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise5);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise5);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise5_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 8:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise6);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise6);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -727,7 +749,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 9:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise7);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise7);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -736,16 +758,16 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 10:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise8);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise8);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise8_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    anim1.start();
                     break;
                 case 11:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise9);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise9);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -754,16 +776,16 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set2.start();
                     break;
                 case 12:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise10);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise10);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise10_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    set2.start();
                     break;
                 case 13:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise11);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise11);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -772,16 +794,16 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 14:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise12);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise12);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise12_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    set2.start();
                     break;
                 case 15:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise13);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise13);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -790,79 +812,79 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 16:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise14);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise14);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise14_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    anim1.start();
                     break;
                 case 17:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise15);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise15);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise15_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 18:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise16);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise16);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise16_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 19:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise17);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise17);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise17_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set2.start();
                     break;
                 case 20:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise18);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise18);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise18_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 21:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise19);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise19);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise19_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set2.start();
                     break;
                 case 22:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise20);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise20);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise20_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    set2.start();
                     break;
                 case 23:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise21);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise21);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise21_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set2.start();
                     break;
                 case 24:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise22);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise22);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -871,34 +893,34 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 25:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise23);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise23);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise23_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set2.start();
                     break;
                 case 26:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise24);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise24);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise24_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set2.start();
                     break;
                 case 27:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise25);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise25);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise25_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    set2.start();
                     break;
                 case 28:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise26);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise26);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -907,7 +929,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 29:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise27);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise27);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -916,7 +938,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set2.start();
                     break;
                 case 30:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise28);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise28);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -925,43 +947,43 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 31:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise29);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise29);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise29_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 32:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise30);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise30);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise30_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    anim1.start();
                     break;
                 case 33:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise31);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise31);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise31_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    anim1.start();
                     break;
                 case 34:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise32);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise32);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise32_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 35:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise33);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise33);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -970,16 +992,16 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 36:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise34);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise34);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise34_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set2.start();
                     break;
                 case 37:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise35);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise35);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -988,7 +1010,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 38:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise36);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise36);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -997,34 +1019,34 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 39:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise37);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise37);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise37_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    anim1.start();
                     break;
                 case 40:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise38);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise38);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise38_text), Toast.LENGTH_SHORT).show();
                     }
-                    set1.start();
+                    set2.start();
                     break;
                 case 41:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise39);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise39);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise39_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 42:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise40);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise40);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -1033,7 +1055,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 43:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise41);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise41);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -1042,7 +1064,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 44:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise42);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise42);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -1051,7 +1073,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 45:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise43);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise43);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -1060,7 +1082,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 46:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise44);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise44);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -1069,13 +1091,40 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 47:
-                    noise = MediaPlayer.create(this, R.raw.ayamenoise45);
+                    noise = MediaPlayer.create(this, R.raw.polkanoise45);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise45_text), Toast.LENGTH_SHORT).show();
                     }
                     set1.start();
+                    break;
+                case 48:
+                    noise = MediaPlayer.create(this, R.raw.polkanoise46);
+                    noise.setOnCompletionListener(listener);
+                    noise.start();
+                    if (switch1) {
+                        Toast.makeText(this, getString(R.string.noise46_text), Toast.LENGTH_SHORT).show();
+                    }
+                    set1.start();
+                    break;
+                case 49:
+                    noise = MediaPlayer.create(this, R.raw.polkanoise47);
+                    noise.setOnCompletionListener(listener);
+                    noise.start();
+                    if (switch1) {
+                        Toast.makeText(this, getString(R.string.noise47_text), Toast.LENGTH_SHORT).show();
+                    }
+                    set1.start();
+                    break;
+                case 50:
+                    noise = MediaPlayer.create(this, R.raw.polkanoise48);
+                    noise.setOnCompletionListener(listener);
+                    noise.start();
+                    if (switch1) {
+                        Toast.makeText(this, getString(R.string.noise48_text), Toast.LENGTH_SHORT).show();
+                    }
+                    anim1.start();
                     break;
                 default:
                     Toast.makeText(this, "NO SOUND SELECTED", Toast.LENGTH_SHORT).show();
@@ -1094,22 +1143,22 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
 
         switch (charavalue) {
             case 0:
-                image.setImageResource(R.drawable.ayame0);
+                image.setImageResource(R.drawable.polka0);
                 break;
             case 1:
-                image.setImageResource(R.drawable.ayame1);
+                image.setImageResource(R.drawable.polka1);
                 break;
             case 2:
-                image.setImageResource(R.drawable.ayame2);
+                image.setImageResource(R.drawable.polka2);
                 break;
             case 3:
-                image.setImageResource(R.drawable.ayame3);
+                image.setImageResource(R.drawable.polka3);
                 break;
             case 4:
-                image.setImageResource(R.drawable.ayame4);
+                image.setImageResource(R.drawable.polka4);
                 break;
             default:
-                image.setImageResource(R.drawable.ayame5);
+                image.setImageResource(R.drawable.polka5);
                 break;
         }
 
@@ -1124,6 +1173,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
 
         listofsounds= new ArrayList<Integer>();
 
+
         SavedSettings =getSharedPreferences("save0",MODE_PRIVATE);
         switch0= SavedSettings.getBoolean("value0",false);
         if (SavedSettings.getBoolean("value0",false)) {
@@ -1136,7 +1186,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         switch1= SavedSettings.getBoolean("value1",true);
 
         SavedSettings =getSharedPreferences("save2",MODE_PRIVATE);
-        switch2= SavedSettings.getBoolean("value2",true);
+        switch2= SavedSettings.getBoolean("value2",false);
 
 
 
@@ -1500,6 +1550,31 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }else{
             SoundBTN45.setVisibility(View.GONE);
         }
+
+        SavedSettings =getSharedPreferences("save48", MODE_PRIVATE);
+        if (SavedSettings.getBoolean("value48",true)) {
+            listofsounds.add(48);
+            SoundBTN46.setVisibility(View.VISIBLE);
+        }else{
+            SoundBTN46.setVisibility(View.GONE);
+        }
+
+        SavedSettings =getSharedPreferences("save49", MODE_PRIVATE);
+        if (SavedSettings.getBoolean("value49",true)) {
+            listofsounds.add(49);
+            SoundBTN47.setVisibility(View.VISIBLE);
+        }else{
+            SoundBTN47.setVisibility(View.GONE);
+        }
+
+        SavedSettings =getSharedPreferences("save50", MODE_PRIVATE);
+        if (SavedSettings.getBoolean("value50",true)) {
+            listofsounds.add(50);
+            SoundBTN48.setVisibility(View.VISIBLE);
+        }else{
+            SoundBTN48.setVisibility(View.GONE);
+        }
+
     }
 
     @Override

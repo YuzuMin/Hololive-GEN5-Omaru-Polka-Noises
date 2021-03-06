@@ -16,18 +16,18 @@ public class ClickerSettings extends AppCompatActivity {
 
     ImageView back_btn;
 
-    TableRow AyameIMG0Row;
-    TableRow AyameIMG1Row;
-    TableRow AyameIMG2Row;
-    TableRow AyameIMG3Row;
-    TableRow AyameIMG4Row;
-    TableRow AyameIMG5Row;
-    RadioButton AyameIMG0;
-    RadioButton AyameIMG1;
-    RadioButton AyameIMG2;
-    RadioButton AyameIMG3;
-    RadioButton AyameIMG4;
-    RadioButton AyameIMG5;
+    TableRow PolkaIMG0Row;
+    TableRow PolkaIMG1Row;
+    TableRow PolkaIMG2Row;
+    TableRow PolkaIMG3Row;
+    TableRow PolkaIMG4Row;
+    TableRow PolkaIMG5Row;
+    RadioButton PolkaIMG0;
+    RadioButton PolkaIMG1;
+    RadioButton PolkaIMG2;
+    RadioButton PolkaIMG3;
+    RadioButton PolkaIMG4;
+    RadioButton PolkaIMG5;
 
     Integer charavalue;
 
@@ -83,6 +83,9 @@ public class ClickerSettings extends AppCompatActivity {
     Switch switch45;
     Switch switch46;
     Switch switch47;
+    Switch switch48;
+    Switch switch49;
+    Switch switch50;
 
 
 
@@ -104,198 +107,198 @@ public class ClickerSettings extends AppCompatActivity {
         });
 
 
-        AyameIMG0=findViewById(R.id.ayame0_img);
-        AyameIMG0Row=findViewById(R.id.ayame0_img_row);
-        AyameIMG1=findViewById(R.id.ayame1_img);
-        AyameIMG1Row=findViewById(R.id.ayame1_img_row);
-        AyameIMG2=findViewById(R.id.ayame2_img);
-        AyameIMG2Row=findViewById(R.id.ayame2_img_row);
-        AyameIMG3=findViewById(R.id.ayame3_img);
-        AyameIMG3Row=findViewById(R.id.ayame3_img_row);
-        AyameIMG4=findViewById(R.id.ayame4_img);
-        AyameIMG4Row=findViewById(R.id.ayame4_img_row);
-        AyameIMG5=findViewById(R.id.ayame5_img);
-        AyameIMG5Row=findViewById(R.id.ayame5_img_row);
+        PolkaIMG0=findViewById(R.id.polka0_img);
+        PolkaIMG0Row=findViewById(R.id.polka0_img_row);
+        PolkaIMG1=findViewById(R.id.polka1_img);
+        PolkaIMG1Row=findViewById(R.id.polka1_img_row);
+        PolkaIMG2=findViewById(R.id.polka2_img);
+        PolkaIMG2Row=findViewById(R.id.polka2_img_row);
+        PolkaIMG3=findViewById(R.id.polka3_img);
+        PolkaIMG3Row=findViewById(R.id.polka3_img_row);
+        PolkaIMG4=findViewById(R.id.polka4_img);
+        PolkaIMG4Row=findViewById(R.id.polka4_img_row);
+        PolkaIMG5=findViewById(R.id.polka5_img);
+        PolkaIMG5Row=findViewById(R.id.polka5_img_row);
 
 
-        AyameIMG0.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=0;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(true);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(true);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG0Row.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG0Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=0;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(true);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(true);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG1.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=1;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(true);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(true);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG1Row.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG1Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=1;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(true);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(true);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG2.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=2;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(true);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(true);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG2Row.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG2Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=2;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(true);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(true);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG3.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=3;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(true);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(true);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG3Row.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG3Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=3;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(true);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(true);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG4.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=4;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(true);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(true);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG4Row.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG4Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=4;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(true);
-                AyameIMG5.setChecked(false);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(true);
+                PolkaIMG5.setChecked(false);
             }
         });
-        AyameIMG5.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=5;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(true);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(true);
             }
         });
-        AyameIMG5Row.setOnClickListener(new View.OnClickListener() {
+        PolkaIMG5Row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 charavalue=5;
                 SoundSettingsEditor =getSharedPreferences("Chara",MODE_PRIVATE).edit();
                 SoundSettingsEditor.putInt("CharaValue",charavalue);
                 SoundSettingsEditor.apply();
-                AyameIMG0.setChecked(false);
-                AyameIMG1.setChecked(false);
-                AyameIMG2.setChecked(false);
-                AyameIMG3.setChecked(false);
-                AyameIMG4.setChecked(false);
-                AyameIMG5.setChecked(true);
+                PolkaIMG0.setChecked(false);
+                PolkaIMG1.setChecked(false);
+                PolkaIMG2.setChecked(false);
+                PolkaIMG3.setChecked(false);
+                PolkaIMG4.setChecked(false);
+                PolkaIMG5.setChecked(true);
             }
         });
 
@@ -537,6 +540,20 @@ public class ClickerSettings extends AppCompatActivity {
                     SoundSettingsEditor.apply();
                     switch47.setChecked(false);
 
+                    SoundSettingsEditor =getSharedPreferences("save48",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value48",false);
+                    SoundSettingsEditor.apply();
+                    switch48.setChecked(false);
+
+                    SoundSettingsEditor =getSharedPreferences("save49",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value49",false);
+                    SoundSettingsEditor.apply();
+                    switch49.setChecked(false);
+
+                    SoundSettingsEditor =getSharedPreferences("save50",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value50",false);
+                    SoundSettingsEditor.apply();
+                    switch50.setChecked(false);
 
                 }else{
 
@@ -765,21 +782,29 @@ public class ClickerSettings extends AppCompatActivity {
                     SoundSettingsEditor.apply();
                     switch47.setChecked(true);
 
+                    SoundSettingsEditor =getSharedPreferences("save48",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value48",true);
+                    SoundSettingsEditor.apply();
+                    switch48.setChecked(true);
+
+                    SoundSettingsEditor =getSharedPreferences("save49",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value49",true);
+                    SoundSettingsEditor.apply();
+                    switch49.setChecked(true);
+
+                    SoundSettingsEditor =getSharedPreferences("save50",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value50",true);
+                    SoundSettingsEditor.apply();
+                    switch50.setChecked(true);
+
                 }
-            }
-        });
-        toggle_btn.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if(event.getAction() == MotionEvent.ACTION_UP) {
-                    toggle_btn.setCardBackgroundColor(getResources().getColor(R.color.button));
-                } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                    toggle_btn.setCardBackgroundColor(getResources().getColor(R.color.clearbutton));
-                }
-                return false;
             }
         });
 
+
+
+
+        // for switch A to activate
 
 
         // for switch 0 to activate
@@ -827,7 +852,7 @@ public class ClickerSettings extends AppCompatActivity {
         // for switch 2 to activate
         switch2=findViewById(R.id.switch2);
         SoundSettings =getSharedPreferences("save2",MODE_PRIVATE);
-        switch2.setChecked(SoundSettings.getBoolean("value2",true));
+        switch2.setChecked(SoundSettings.getBoolean("value2",false));
         switch2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -1790,6 +1815,71 @@ public class ClickerSettings extends AppCompatActivity {
             }
         });
 
+        // for switch 48 to activate
+        switch48=findViewById(R.id.switch48);
+        SoundSettings =getSharedPreferences("save48",MODE_PRIVATE);
+        switch48.setChecked(SoundSettings.getBoolean("value48",true));
+        switch48.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(switch48.isChecked()){
+                    SoundSettingsEditor =getSharedPreferences("save48",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value48",true);
+                    SoundSettingsEditor.apply();
+                    switch48.setChecked(true);
+                }else{
+                    SoundSettingsEditor =getSharedPreferences("save48",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value48",false);
+                    SoundSettingsEditor.apply();
+                    switch48.setChecked(false);
+                }
+            }
+        });
+
+// for switch 49 to activate
+        switch49=findViewById(R.id.switch49);
+        SoundSettings =getSharedPreferences("save49",MODE_PRIVATE);
+        switch49.setChecked(SoundSettings.getBoolean("value49",true));
+        switch49.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(switch49.isChecked()){
+                    SoundSettingsEditor =getSharedPreferences("save49",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value49",true);
+                    SoundSettingsEditor.apply();
+                    switch49.setChecked(true);
+                }else{
+                    SoundSettingsEditor =getSharedPreferences("save49",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value49",false);
+                    SoundSettingsEditor.apply();
+                    switch49.setChecked(false);
+                }
+            }
+        });
+
+// for switch 50 to activate
+        switch50=findViewById(R.id.switch50);
+        SoundSettings =getSharedPreferences("save50",MODE_PRIVATE);
+        switch50.setChecked(SoundSettings.getBoolean("value50",true));
+        switch50.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(switch50.isChecked()){
+                    SoundSettingsEditor =getSharedPreferences("save50",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value50",true);
+                    SoundSettingsEditor.apply();
+                    switch50.setChecked(true);
+                }else{
+                    SoundSettingsEditor =getSharedPreferences("save50",MODE_PRIVATE).edit();
+                    SoundSettingsEditor.putBoolean("value50",false);
+                    SoundSettingsEditor.apply();
+                    switch50.setChecked(false);
+                }
+            }
+        });
+
+
+
 
 
     }
@@ -1800,22 +1890,22 @@ public class ClickerSettings extends AppCompatActivity {
 
         switch (charavalue) {
             case 0:
-                AyameIMG0.setChecked(true);
+                PolkaIMG0.setChecked(true);
                 break;
             case 1:
-                AyameIMG1.setChecked(true);
+                PolkaIMG1.setChecked(true);
                 break;
             case 2:
-                AyameIMG2.setChecked(true);
+                PolkaIMG2.setChecked(true);
                 break;
             case 3:
-                AyameIMG3.setChecked(true);
+                PolkaIMG3.setChecked(true);
                 break;
             case 4:
-                AyameIMG4.setChecked(true);
+                PolkaIMG4.setChecked(true);
                 break;
             default:
-                AyameIMG5.setChecked(true);
+                PolkaIMG5.setChecked(true);
                 break;
         }
     }
