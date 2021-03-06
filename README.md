@@ -66,5 +66,4 @@ GNU General Public License V3
 * polkanoise45 Fucking my life
 * polkanoise46 Kusotori
 * polkanoise47 Gomen Nene
-* polkanoise48 It's ok
-* polkanoise49 えんやで。
+* polkanoise48 えんやで。
