@@ -1,0 +1,159 @@
+<resources>
+    <!--MainActivity-->
+    <string name="app_name">Uto Noises</string>         <!--Needs translations-->
+    <string name="press_vtuber">Press Uto!</string>     <!--Needs translations-->
+    <string name="sit_back">Sit Back &amp; Chill</string>
+    <!--AppMenu-->
+    <string name="version">Version</string>
+    <string name="app_version" translatable="false">2021.10 REV-2</string>
+    <string name="youtubeChannelName" translatable="false">Uto Ch. 天使うと</string>
+    <string name="youtube_channel">Youtube Channel</string>
+    <string name="channel_tagline">Become A Tenshimp!</string>
+    <string name="clicker_settings">Clicker Settings</string>
+    <string name="sounds">Sounds</string>
+    <string name="downloads">Downloads</string>
+    <string name="information">Information</string>
+    <string name="more_apps">More Apps</string>
+    <string name="failedAuth">Manual Activation Required</string>
+    <string name="activated">Activated</string>
+    <string name="settings">Settings</string>
+    <string name="toggle">Toggle</string>
+    <!--Clicker Settings-->
+    <string name="turn_on_clicker">Turn On Clicker</string>
+    <string name="show_popup_text">Show Popup Text</string>
+    <string name="show_button_bar">Show Button Bar</string>
+    <string name="character_settings">Character Settings</string>
+    <!--Information-->
+    <string name="instruction_manual">Instruction Manual</string>
+    <string name="mit_license">MIT License</string>
+    <string name="release_notes">Release Notes</string>
+    <!--InfoReader-->
+    <string name="instruction_manual_text">1. HOW TO USE APP\n
+                        Simply follow the on screen instructions and click on the character.\n
+                        \n
+                        2. AUTOCLICK\n
+                        Tap the words \"Press Uto\" and the text will become \"Sit Back &amp; Chill\". This will allow the app to autoplay random noises continuously\n
+                        \n
+                        3. Download Assets\n
+                        Go to the Settings Menu and you will see a button that says Downloads. You can Audio, Image and Video here\n
+                        \n
+                        4. DEVELOPER MODE\n
+                        To unlock Developer mode, Goto Settings tap Version at least 7 times, developer mode merely unlocks unstable features that are currently in development\n
+                        \n
+                        \n</string> <!--Needs translations-->
+    <string name="release_notes_text">/***REMOVED FEATURES***/\n
+                                •Alarm Clock (ANDROID INCOMPATIBILITY)\n
+                                \n
+                                \n
+                                /***FIXES***/\n
+                                •New Randomizer\n
+                                •Popup Text Error\n
+                                \n
+                                \n</string>
+    <string name="error">Error</string>
+    <string name="error_text">Oops Something must\'ve went wrong</string>
+
+
+    <string name="noise1_text" translatable="false">AAAAAAAAAAA!!</string>
+    <string name="noise2_text" translatable="false">Oh?!</string>
+    <string name="noise3_text" translatable="false">Everyone my friend</string>
+    <string name="noise4_text" translatable="false">You are my little pogchamp</string>
+    <string name="noise5_text" translatable="false">blessed evil laugh</string>
+    <string name="noise6_text" translatable="false">I am angry</string>
+    <string name="noise7_text" translatable="false">Watashi Ikatteiru</string>
+    <string name="noise8_text" translatable="false">Anata denwa yo</string>
+    <string name="noise9_text" translatable="false">MMMMM!!</string>
+    <string name="noise10_text" translatable="false">Iyada x4</string>
+    <string name="noise11_text" translatable="false">Tenshi Breathing</string>
+    <string name="noise12_text" translatable="false">Yabai yabai</string>
+    <string name="noise13_text" translatable="false">Amatsuka Uto headpats</string>
+    <string name="noise14_text" translatable="false">Ollie Chan I love you</string>
+    <string name="noise15_text" translatable="false">Shinu</string>
+    <string name="noise16_text" translatable="false">10Q Arigatou</string>
+    <string name="noise17_text" translatable="false">Nyaaa~~</string>
+    <string name="noise18_text" translatable="false">Omedetou Hapi Basuday</string>
+    <string name="noise19_text" translatable="false">Big yabe</string>
+    <string name="noise20_text" translatable="false">Moe Moe Kyun</string>
+    <string name="noise21_text" translatable="false">NNNNNNNN!</string>
+    <string name="noise22_text" translatable="false">Nico Nico Nii</string>
+    <string name="noise23_text" translatable="false">Nice to Meet You</string>
+    <string name="noise24_text" translatable="false">NEEEEEEEEEEEE!!!</string>
+    <string name="noise25_text" translatable="false">omae wa mou shindeiru</string>
+    <string name="noise26_text" translatable="false">omae wa mou shindeiru ASMR</string>
+    <string name="noise27_text" translatable="false">LMAO</string>
+    <string name="noise28_text" translatable="false">Big Kusa</string>
+    <string name="noise29_text" translatable="false">Tenshi Giggle</string>
+    <string name="noise30_text" translatable="false">ABC Song</string>
+    <string name="noise31_text" translatable="false">HMPH</string>
+    <string name="noise32_text" translatable="false">Hey Moona</string>
+    <string name="noise33_text" translatable="false">Almond Almond</string>
+    <string name="noise34_text" translatable="false">Heavy Breathing</string>
+    <string name="noise35_text" translatable="false">Arigato Minna</string>
+    <string name="noise36_text" translatable="false">Everyone is my husband, Okay</string>
+    <string name="noise37_text" translatable="false">BUN BUN CHA</string>
+    <string name="noise38_text" translatable="false">Onii Chan</string>
+    <string name="noise39_text" translatable="false">Papa</string>
+    <string name="noise40_text" translatable="false">Ara Ara</string>
+    <string name="noise41_text" translatable="false">Uto Pop Pop</string>
+    <string name="noise42_text" translatable="false">Step Bro Nani o shimasu ka</string>
+    <string name="noise43_text" translatable="false">Yoshi Yoshi Good Boy</string>
+    <string name="noise44_text" translatable="false">Yo Wazzup</string>
+    <string name="noise45_text" translatable="false">I Love Everyone</string>
+    <string name="noise46_text" translatable="false">Bye Bye</string>
+    <string name="noise47_text" translatable="false">WAAAAAA!</string>
+    <string name="noise48_text" translatable="false">Watafaq</string>
+    <string name="noise49_text" translatable="false">Im Die Thank You 4ever</string>
+    <string name="noise50_text" translatable="false">Tenshi Noises</string>
+    <string name="noise51_text" translatable="false">My New PC</string>
+    <string name="noise52_text" translatable="false">Yaaaaay</string>
+    <string name="noise53_text" translatable="false">Sugoi Yo</string>
+    <string name="noise54_text" translatable="false">Ureshii Nee</string>
+    <string name="noise55_text" translatable="false">Very Strong Pc</string>
+    <string name="noise56_text" translatable="false">Interesting</string>
+    <string name="noise57_text" translatable="false">Pumpkin Pc</string>
+    <string name="noise58_text" translatable="false">Eroge Suki Janai</string>
+    <string name="noise59_text" translatable="false">I am SIMP</string>
+    <string name="noise60_text" translatable="false">Struggling Noises</string>
+    <string name="noise61_text" translatable="false">Peko Laugh</string>
+    <string name="noise62_text" translatable="false">Don\'t cry</string>
+    <string name="noise63_text" translatable="false">Oya Oya</string>
+    <string name="noise64_text" translatable="false">Shuba Shuba</string>
+    <string name="noise65_text" translatable="false">Subaru Desu</string>
+    <string name="noise66_text" translatable="false">Haachama Chama</string>
+    <string name="noise67_text" translatable="false">Rushia Desu</string>
+    <string name="noise68_text" translatable="false">Holy coughs</string>
+    <string name="noise69_text" translatable="false">GG Men</string>
+    <string name="noise70_text" translatable="false">otsukaresama deshita</string>
+    <string name="noise71_text" translatable="false">Tenshi Cries</string>
+    <string name="noise72_text" translatable="false">Study gambare</string>
+    <string name="noise73_text" translatable="false">Dinner,Bath or Superchat?</string>
+    <string name="noise74_text" translatable="false">Ahoy</string>
+    <string name="noise75_text" translatable="false">Marine Desu</string>
+    <string name="noise76_text" translatable="false">Minna</string>
+    <string name="noise77_text" translatable="false">Smug Laugh</string>
+    <string name="noise78_text" translatable="false">Satisfied Noises</string>
+    <string name="noise79_text" translatable="false">PANIK</string>
+    <string name="noise80_text" translatable="false">Pain</string>
+    <string name="noise81_text" translatable="false">Onii Chan Asa Dayo</string>
+    <string name="noise82_text" translatable="false">Oh My God!</string>
+    <string name="noise83_text" translatable="false">Chu</string>
+    <string name="noise84_text" translatable="false">Nani</string>
+    <string name="noise85_text" translatable="false">Doyukoto</string>
+    <string name="noise86_text" translatable="false">Nande</string>
+    <string name="noise87_text" translatable="false">Konpeko</string>
+    <string name="noise88_text" translatable="false">nab0i mama</string>
+    <string name="noise89_text" translatable="false">No Pettan</string>
+    <string name="noise90_text" translatable="false">Normal Pettan</string>
+    <string name="noise91_text" translatable="false">Pettan Janai no desu</string>
+    <string name="noise92_text" translatable="false">Normal Tenshi</string>
+    <string name="noise93_text" translatable="false">I wink everyday</string>
+    <string name="noise94_text" translatable="false">Uto\'s sister</string>
+    <string name="noise95_text" translatable="false">Peko peko peko</string>
+    <string name="noise96_text" translatable="false">Gambarimasu Onii Chan</string>
+    <string name="noise97_text" translatable="false">confused angry noises</string>
+    <string name="noise98_text" translatable="false">Buruh</string>
+    <string name="noise99_text" translatable="false">Oboeta</string>
+    <string name="noise100_text" translatable="false">Poggars</string>
+
+
+</resources>
