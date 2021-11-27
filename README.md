@@ -11,7 +11,7 @@ alt="Get it on Google Play"
 height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.polkanoises)
 
 # Features
-* 48 Noises
+* 54 Noises
 * Alarm Clock
 * Google Drive Download
 
@@ -67,3 +67,9 @@ GNU General Public License V3
 * polkanoise46 Kusotori
 * polkanoise47 Gomen Nene
 * polkanoise48 えんやで。
+* polkanoise49 Polka ambulance noise
+* polkanoise50 Voice Sample 1
+* polkanoise51 Voice Sample 2
+* polkanoise52 Voice Sample 3
+* polkanoise53 Voice Sample 4
+* polkanoise54 Kuso GAAAAA
