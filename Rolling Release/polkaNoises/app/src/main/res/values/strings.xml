@@ -28,7 +28,19 @@
     <string name="mit_license">MIT License</string>
     <string name="release_notes">Release Notes</string>
     <!--InfoReader-->
-    <string name="instruction_manual_text">"1. HOW TO USE APP                          Simply follow the on screen instructions and click on the character.                                                    2. AUTOCLICK                          Tap the words \"Press Uto\" and the text will become \"Sit Back &amp; Chill\". This will allow the app to autoplay random noises continuously                                                    3. Download Assets                          Go to the Settings Menu and you will see a button that says Downloads. You can Audio, Image and Video here                                                    4. DEVELOPER MODE                          To unlock Developer mode, Goto Settings tap Version at least 7 times, developer mode merely unlocks unstable features that are currently in development                                                     "</string> <!--Needs translations-->
+    <string name="instruction_manual_text">1. HOW TO USE APP\n
+                        Simply follow the on screen instructions and click on the character.\n
+                        \n
+                        2. AUTOCLICK\n
+                        Tap the words \"Press Polka\" and the text will become \"Sit Back &amp; Chill\". This will allow the app to autoplay random noises continuously\n
+                        \n
+                        3. Download Assets\n
+                        Go to the Settings Menu and you will see a button that says Downloads. You can Audio, Image and Video here\n
+                        \n
+                        4. DEVELOPER MODE\n
+                        To unlock Developer mode, Goto Settings tap Version at least 7 times, developer mode merely unlocks unstable features that are currently in development\n
+                        \n
+                        \n</string> <!--Needs translations-->
     <string name="release_notes_text">/***REMOVED FEATURES***/\n
                                 •Alarm Clock (ANDROID INCOMPATIBILITY)\n
                                 \n
